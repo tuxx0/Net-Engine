@@ -5,7 +5,7 @@ Berikut adalah kumpulan sertifikasi yang telah saya peroleh:
 
 ## Mikrotik Certified Network Associate (MTCNA)
 
-![Preview](/Sertifikat%20MTCNA.png)
+![Preview](/Sertifikat%20MTCNA.png?raw=true)
 
 * **Penerbit :** Mikrotik
 * **Program :** Pengembangan Kompetensi Mahasiswa Politeknik IDN, Bogor
