@@ -5,7 +5,7 @@ Berikut adalah kumpulan sertifikasi yang telah saya peroleh:
 
 ## Mikrotik Certified Network Associate [MTCNA] 
 
-![Preview](/Sertifikat%20MTCNA.png?raw=true)
+![Preview](https://github.com/tuxx0/Net-Engine/blob/main/certifications/Sertifikat%20MTCNA.png?raw=true))
 
 * **Penerbit :** Mikrotik
 * **Program :** Pengembangan Kompetensi Mahasiswa Politeknik IDN, Bogor
@@ -18,7 +18,7 @@ Berikut adalah kumpulan sertifikasi yang telah saya peroleh:
 
 ## Introduction to Networks (ITN)
 
-![Preview](/Sertifikat%20ITN.jpg)
+![Preview](https://github.com/tuxx0/Net-Engine/blob/main/certifications/Sertifikat%20ITN.jpg?raw=true))
 
 * **Penerbit :** Cisco Networking Academy (NetAcad)
 * **Program :** Pengembangan Kompetensi Mahasiswa Politeknik IDN, Bogor
@@ -32,7 +32,7 @@ Berikut adalah kumpulan sertifikasi yang telah saya peroleh:
 
 ## Switching, Routing, and Wireless Essentials [SRWE]
 
-![Preview](/Sertifikat%20SRWE.jpg)
+![Preview](https://github.com/tuxx0/Net-Engine/blob/main/certifications/Sertifikat%20SRWE.jpg?raw=true))
 
 * **Penerbit :** Cisco Networking Academy (NetAcad)
 * **Program :** Pengembangan Kompetensi Mahasiswa Politeknik IDN, Bogor
@@ -46,7 +46,7 @@ Berikut adalah kumpulan sertifikasi yang telah saya peroleh:
 
 ##  Enterprise Networking, Security, and Automation [ENSA]
 
-![Preview](/Sertifikat%20ENSA.jpg)
+![Preview](https://github.com/tuxx0/Net-Engine/blob/main/certifications/Sertifikat%20ENSA.jpg?raw=true)
 
 * **Penerbit :** Cisco Networking Academy (NetAcad)
 * **Program :** Pengembangan Kompetensi Mahasiswa Politeknik IDN, Bogor
