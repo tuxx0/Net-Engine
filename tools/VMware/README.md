@@ -8,126 +8,50 @@ VMware termasuk **Hypervisor**, yaitu perangkat lunak yang mengelola Virtual Mac
 
 ## Tipe Hypervisor
 
-Secara umum terdapat dua jenis Hypervisor.
 
 <p align="center">
     <img src="https://github.com/tuxx0/Net-Engine/blob/main/tools/Assets/Types%20of%20Hypervisor.png?raw=true" width="700">
 </p>
 
-### Type 1 (Bare Metal)
-
-Berjalan langsung di atas hardware tanpa sistem operasi host.
-
-**Contoh**
-- VMware ESXi
-- Microsoft Hyper-V
-- Xen
-
-### Type 2 (Hosted)
-
-Berjalan di atas sistem operasi seperti aplikasi biasa.
-
-**Contoh**
-- VMware Workstation
-- VMware Fusion
-- Oracle VirtualBox
-
-> VMware Workstation yang digunakan pada dokumentasi ini merupakan **Hypervisor Type 2**.
+Secara umum terdapat dua jenis Hypervisor:
+* **Type-1 (Bare Metal):** *Hypervisor* diinstal langsung di atas perangkat keras (seperti sistem operasi utama). Contoh: VMware ESXi, Proxmox. Biasanya digunakan di level *data center* atau *server* produksi karena performanya yang sangat efisien.
+* **Type-2 (Hosted):** *Hypervisor* diinstal sebagai aplikasi di atas sistem operasi utama (seperti Windows, macOS, atau Linux). Contoh: VMware Workstation Pro, VMware Fusion, Oracle VirtualBox. Inilah yang kita gunakan untuk kebutuhan *lab* pribadi di laptop.
 
 ---
 
-## Persyaratan
+## Langkah-Langkah Instalasi & Setup
 
-Sebelum menginstal VMware, pastikan komputer memenuhi persyaratan berikut.
+### A. Persiapan Awal
+1. **Spesifikasi Laptop:** Minimal RAM 8GB (disarankan 16GB), penyimpanan SSD, dan prosesor yang mendukung virtualisasi.
+2. **BIOS/UEFI:** Pastikan fitur **Virtualization Technology (VT-x / AMD-V)** sudah **Enabled** di BIOS laptop Anda.
 
-- CPU mendukung Intel VT-x atau AMD-V
-- Virtualization telah diaktifkan pada BIOS/UEFI
-- RAM minimal 8 GB (disarankan 16 GB)
-- Ruang penyimpanan minimal 30 GB
+### B. Instalasi VMware
+1. Kunjungi portal resmi Broadcom untuk mengunduh installer: [Broadcom Support Portal](https://support.broadcom.com/). Daftar dulu kalo belum punya akun
+2. Pada kolom pencarian ketikan saja VMware/VMware workstation
 
----
+<p align="center" > 
+<img width="776" height="308" alt="Image" src="https://github.com/user-attachments/assets/068fa3fe-ef87-4563-8211-6084690ce513" />    
+</p>
 
-## Instalasi VMware
+3. Pilih menu "My Downloads" dan klik kata "here" ini
 
-### 1. Download Installer
+<p align="center">
+   <img width="776" height="308" alt="Image" src="https://github.com/user-attachments/assets/d0d04dce-c3ce-42e7-b18b-ff34d8cc44f7" />
+</p>
 
-Download VMware sesuai sistem operasi.
+4. Cari "VMware Workstation Pro" untuk Windows/Linux, atau "VMware Fusion Pro" untuk macOS. Pilih Versi terbarunya dan Download dengan klik gambar awan
 
-- Windows → VMware Workstation Pro
-- Linux → VMware Workstation Pro
-- macOS → VMware Fusion
 
----
+<p align="center">
+<img width="776" height="308" alt="Image" src="https://github.com/user-attachments/assets/34773bc1-f5e8-4fcd-a498-f6436b4fb2a6" />
+</p>
 
-### 2. Jalankan Installer
+<p align="center">
+<img width="776" height="308" alt="Image" src="https://github.com/user-attachments/assets/a94ba7bd-4ead-48c7-a176-c1526c73edf8" />
+</p>
 
-Buka file installer, kemudian ikuti proses instalasi.
+*NB:*
+*Kalo gabisa di download kita harus baca terms and conditionnya dl lalu centang dan download deh*
 
-```
-Next
-↓
-Accept License
-↓
-Typical Installation
-↓
-Install
-↓
-Finish
-```
+5. Terakhir, buka file hasil downloadnya dan selesaikan setup wizard instalationnya-*klik next next aja*
 
-Restart komputer jika diminta.
-
----
-
-### 3. Membuat Virtual Machine
-
-Setelah instalasi selesai.
-
-1. Klik **Create a New Virtual Machine**
-2. Pilih file ISO sistem operasi
-3. Tentukan nama Virtual Machine
-4. Atur CPU, RAM, dan Storage
-5. Klik **Finish**
-6. Jalankan Virtual Machine
-
----
-
-## Mode Network VMware
-
-| Mode | Fungsi |
-|------|--------|
-| NAT | VM dapat mengakses internet melalui Host. |
-| Bridged | VM berada pada jaringan yang sama dengan Host. |
-| Host-Only | VM hanya dapat berkomunikasi dengan Host dan VM lainnya. |
-
----
-
-## Troubleshooting
-
-### Virtualization belum aktif
-
-**Gejala**
-
-```
-VMware requires Intel VT-x / AMD-V.
-```
-
-**Solusi**
-
-Aktifkan Intel VT-x atau AMD-V melalui BIOS/UEFI.
-
----
-
-### Virtual Machine tidak mendapat internet
-
-Periksa:
-
-- Network Adapter
-- Mode NAT / Bridged
-- DHCP
-
----
-
-### Resolusi layar kecil
-
-Install **VMware Tools**, kemudian restart Virtual Machine.
