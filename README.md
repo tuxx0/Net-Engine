@@ -1,8 +1,8 @@
-# 🌐 Net-Engine
+#  Net-Engine
 
 Tempat dokumentasi, simulasi lab, dan hasil *ngoprek* infrastruktur jaringan saya.
 
-### 🗂 Isi Repositori
+### Isi Repositori
 
 *   **[Certifications](./certifications)**: Bukti sertifikasi profesional yang saya miliki.
 *   **[ Configs](./configs)**: Kumpulan file konfigurasi perangkat (Cisco & MikroTik).
@@ -16,4 +16,4 @@ Tempat dokumentasi, simulasi lab, dan hasil *ngoprek* infrastruktur jaringan say
 *   **OS & Lingkungan**: Linux (Debian) 
 
 ---
-📬 **Hubungi Saya**: [LinkedIn](https://linkedin.com/in/fauzan-akhmad-faiz) | [Website](https://fazaa.my.id)
+**Hubungi Saya**: [LinkedIn](https://linkedin.com/in/fauzan-akhmad-faiz) | [Website](https://fazaa.my.id)
