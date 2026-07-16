@@ -13,7 +13,7 @@ Biar kebayang kapasitas laptop saya buat nahan beban virtualisasi ini:
 Saya milih Proxmox karena ini *open-source* dan fiturnya lengkap banget buat latihan simulasi jaringan (bisa buat VM sama Container/LXC sekaligus). Ditambah lagi, performanya jauh lebih enteng dibanding simulasi di dalam OS Windows langsung.
 
 ## Tantangan yang Saya Hadapi
-*Tuliskan di sini apa yang bikin Anda pusing pas install.*
+*Tuliskan di sini apa yang bikin Anda pusing pas install*
 Contoh:
 - Awalnya bingung pas aktivasi *Nested Virtualization* di VMware. Ternyata fiturnya harus dicentang manual di *Settings*.
 - Sering *crash* pas awal booting karena RAM kebagi dua, jadi harus pinter-pinter ngatur *resource* VM-nya.
